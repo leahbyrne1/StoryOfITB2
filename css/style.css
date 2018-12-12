@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+ background-color: lightgrey;
+	font-family: Tahoma, Calibri, sans-serif;
+	color: #2b2b2b;
+	font-size: 	112.5%; /* 18px */
+	line-height: 2em;
+	text-align: center;
+	}
+/* * * * * * Grid */
+.one { 
+     width: 380px;
+	height: 300px;
+}
+.row	{
+	/*background-color: green;*/
+	width: 1180px, 100%;
+	height: 100%;
+	margin:0% auto;
+	}
+		
+.column {
+	/* background-color: blue;*/
+	width: 32.203389830508%; /*380px;*/
+	float: left;
+	padding: 0 1.694915254237% 1.694915254237% 0; /*0 20px 20px 0;*/
+	}
+.column:last-child {
+	padding: 0 0 1.694915254237% 0;
+}
+
+img,#hero{
+    background: url( "../images/ITBlogo.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+section {
+	display:block;
+}
+h1	{
+	font-size: 2.66666666666667em; /* 48px / 18px */
+	padding: 0.6em 0;
+	}
+	
+h2	{
+	
+	font-size: 2em; /* 36px / 18px */
+	padding: 0.6em 0;
+	}
+
+p	{
+	padding: 0.6em 0;
+	line-height: 1.5em;
+	} 
+
+
+#top, #bottom, #left, #right {
+	background: #67CB05;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 5px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 7px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+html, h1 {
+    margin-top:-15px;
+}
+
+h1 {
+ background-color: lightgrey;
+ color: black;
+ text-align: center;
+ font-family: Tahoma, Calibri, sans-serif;
+ font-style: none;
+ font-variant: small-caps;
+}
+
+h2 {
+ background-color: lightgrey;
+ color: black;
+ text-align: center;
+ font-family: Tahoma, Calibri, sans-serif;
+	font-variant: small-caps;
+}
+
+h3 {
+ background-color: lightgrey;
+ color: black;
+ text-align: center;
+ font-family: Tahoma, Calibri, sans-serif;
+	font-variant: small-caps;
+}
+
+h4 {
+ background-color: lightgrey;
+ color: black;
+ text-align: left;
+	font-variant: small-caps;
+}
+
+p { 
+ text-align: center; 
+ font-family: Tahoma, Calibri, sans-serif;
+ font-weight: lighter;
+ text-decoration: none;
+ margin: 5px;
+ padding: 10px;
+}
+
+main {
+ background-color: lightgrey;
+}
+
+hr {
+ border: 1px solid #0D3601;
+}
+
+dd {
+ text-decoration: none;
+ font-weight: lighter;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+	
+nav a#pull {
+	display: none;
+}.hero {
+}
+#hero {
+}
